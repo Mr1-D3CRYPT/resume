@@ -1,0 +1,223 @@
+* {box-sizing: border-box;}
+body {margin: 0 15%;}
+img {display:block;}
+hr {border-top: 1px rgb(30,30,30) solid;
+  width:100%;
+  margin-top: 0.4vw;
+  margin-bottom: 0.4vw;}
+.HeaderHr {
+   position: absolute; z-index: 2;
+   border: 1px solid white;
+   width: 4vw;
+   bottom: 0vw;
+   margin-left: auto; margin-right: auto;}
+   #leftHr {left: 6.2vw;}
+   #rightHr {left: 13.7vw;}
+.over {
+       color: white;
+       position: absolute; z-index: 2;
+       width: 100%; text-align: center;
+       margin-left: auto; margin-right: auto;
+       }
+.dot {
+   height: 0.5vw;
+   width: 0.5vw;
+   background-color: rgba(0,0,0,0);
+   border-radius: 50%; border: 3px solid white;
+   display: inline-block;}
+   #middleOne {background-color:white;}
+   #dotContainer {bottom: 0vw;}
+   #Profession {
+    top: -0.2vw;
+    font-family:"Lato";
+    letter-spacing: 0.05em;
+    font-weight: 200;
+  }
+
+
+h1 {font-family:"Fjalla One";
+  font-size:2.2em;
+  letter-spacing:0.2em;
+  font-weight:900;
+  margin: 0;
+  padding-bottom: 0.5vw;}
+h2 {
+  font-family:"Fjalla One";
+  font-weight: 600; font-size: 1.6em;
+  letter-spacing: 0.2vw;
+  }
+h3 {font-family:"Lato"; font-size: 1em; margin:0;}
+h4 {font-family:"Lato"; font-size: 0.9em; margin:0; font-style: italic; font-weight:400;}
+
+
+.left {
+  display: inline-block;
+  width:100%;
+  text-align: center;}
+.right {
+  display: inline-block;
+  width:100%;
+  text-align: left;
+  margin-bottom: 0.5vw;}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+  .leftColumn {width: 35%;}
+    .leftRow {
+    position: relative;
+    margin: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 0.06vw; font-size: 0.85vw; font-family:"Lato";
+    }
+ 
+ 
+ 
+    #name {
+       color: white;
+       font-family: "Permanent Marker"; font-size: 2vw; font-weight: 800;
+       position: absolute; z-index: 2; top: 16vw;
+       width: 100%; text-align: center;
+       margin-left: auto; margin-right: auto;
+       letter-spacing: 0.2em; line-height: 2.5vw;}
+    #Cone {
+      width: 24.1vw;
+      height: 8vw;
+      background: conic-gradient(rgb(56,23,6) 6%, rgb(0,0,0) 20%, white 0 80%, rgb(0,0,0) 0 81%, rgb(56,23,6) 92%);}
+    .Triangle1 {
+     position: absolute; z-index: 1;
+     width: 0; height: 0;
+     border-bottom: 4.25vw solid black;
+     top: 10px;}
+        #LeftTriangle {left: 0;
+          border-right: 12.8vw solid transparent;}
+        #RightTriangle {left: 11.45vw;
+          border-left: 12.8vw solid transparent;}
+    .Triangle2 {
+      position: absolute; z-index: 2;
+      top: 15px;
+      width: 0; height: 0;
+      border-bottom: 4.01vw solid #C0D8DE;}
+        #LeftTriangle2 {left: 0;
+          border-right: 12vw solid transparent;}
+        #RightTriangle2 {left: 12.25vw;
+          border-left: 12vw solid transparent;}
+  
+  
+  
+
+
+          #LeftBottom {
+            top: -3.4vw;
+            padding: 0 2.5vw 3.4vw 2.5vw;
+            margin: 0;
+            background-color: #C0D8DE;}
+               .skills {
+                  position: relative;
+                  background-color: white;
+                  margin-bottom: 0.5vw;
+                  padding: 0.3vw;
+                  font-size: .7vw;
+               }
+               .skillBar {
+                 position: absolute;
+                 border-top: 8px rgb(70,70,70) solid;
+                 top: 0.175vw;
+                 margin-left: 50%;
+                 max-width: 48%;
+                }
+
+            #cpp {width: 25%;}
+            #java {width: 25%;}
+            #python {width: 35%;}
+            #html {width: 40%;}
+            #js {width: 35%;}
+            #php {width: 30%;}
+            #bash {width: 20%;}
+            #net {width: 25%;}
+            #meta {width: 29%;}
+            #osint {width: 42%;}
+            #stego {width: 30%;}
+            #owasp {width: 25%;}
+            #ds {width: 35%;}
+            #ms {width: 50%;}
+            #rhel {width: 25%;}
+            #vb {width: 45%;}
+            #da {width: 45%;}
+            #or {width: 45%;}
+            #eng {width: 48%;}
+            #hindi {width: 30%;}
+            #mala {width: 45%;}
+            #ger {width: 5%;}
+
+
+.rightColumn {
+   width: 65%;
+   flex: none;
+  }
+   .rightRow {padding: 2vw 3vw;
+      position: relative;
+      z-index: 0;}
+   .rightText {letter-spacing: 0.1em;
+     font-size: 1.1em;
+     font-family:"Lato";
+     text-align: justify;
+     text-justify: inter-word;}
+   #rightHeader {background-color: rgb(213,213,215);}
+     .containerHl {
+     display: flex;
+     padding: 0vw 2vw;
+     align-items: center;
+     margin-top: 0;
+     margin-bottom: 0;
+     }
+       .years {
+         border: 1px solid black;
+         background: #C0D8DE;
+         border-radius: 1vw;
+         width: 18%;
+         height: 2.5vw;
+         text-align: center;
+         margin: 0.1vw 5% 0.1vw 2%;
+         padding: 0.55vw 0.2vw 0.2vw 0.2vw;
+         }
+       .jobs {
+         width: 82%;
+         padding: 0.3vw;
+         }
+     .containerText {
+      display: flex;
+      padding: 0vw 2vw;
+      align-items: center;
+      margin-bottom: 1vw;
+      padding-left: 4.1vw;
+      min-height: 0;
+     }
+       .verticalLines {
+         border-left: 1px solid black;
+         border-right: 1px solid black;
+         min-height: 4.8vw;
+         width: 1.2%;
+         margin: 0 0.2vw;
+         text-align: center;
+         }
+       .verticalLinesEdu {
+         border-left: 1px solid black;
+         border-right: 1px solid black;
+         min-height: 3vw;
+         width: 1.2%;
+         margin: 0 0.2vw;
+         text-align: center;
+         }
+       .jobText {
+         width: 80%;
+         padding: 0.3vw;
+         margin-left: 3.3vw;
+         font-family: "Lato";
+         font-size: 1em;
+         letter-spacing: 0.05em;
+}
