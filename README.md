@@ -1,5 +1,3 @@
-# resume
-My personal resume
 
-open the site on : 
+open the site here : 
 https://mr1-d3crypt.github.io/resume/
